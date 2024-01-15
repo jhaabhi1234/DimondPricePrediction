@@ -1,0 +1,13 @@
+prefix=/Users/abhishekjha/Desktop/Dup_ML_project/env
+exec_prefix=/Users/abhishekjha/Desktop/Dup_ML_project/env
+libdir=/Users/abhishekjha/Desktop/Dup_ML_project/env/lib
+sharedlibdir=/Users/abhishekjha/Desktop/Dup_ML_project/env/lib
+includedir=/Users/abhishekjha/Desktop/Dup_ML_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
