@@ -18,7 +18,6 @@ list_of_files=[
     f"src/{package_name}/utils/__init__.py",
     "notebooks/research.ipynb",
     "notebooks/data/.gitkeep",
-    "requirements.txt",
     "setup.py",
     "init_setup.sh",
 ]
