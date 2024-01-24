@@ -10,8 +10,7 @@ jobs:
     name: Build Image
     runs-on: ubuntu-latest
     defaults:
-      run:
-        shell: bash -euxo pipefail
+      run: {}
     steps:
     - name: Check out code
       uses: actions/checkout@v2
