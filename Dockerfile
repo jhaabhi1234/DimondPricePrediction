@@ -10,5 +10,5 @@ COPY . .
 # Install required dependencies from requirement.txt
 RUN pip install --no-cache-dir -r requirement.txt
 
-# Specify the command to run on container start with below comand
+# Specify the command to run on container start with below
 ENTRYPOINT ["python3", "app.py"]
