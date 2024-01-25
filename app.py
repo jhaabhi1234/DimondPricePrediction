@@ -39,7 +39,9 @@ def predict_datapoint():
         result=round(pred[0],2)
         
         return render_template("result.html",final_result=result)
-
+#execution begins
 if __name__ == '__main__':
-    app.run(gost="0.0.0.0",port=8080)
+    app.run(host="0.0.0.0",port=8080)
+    
+    
     
